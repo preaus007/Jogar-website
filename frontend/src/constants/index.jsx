@@ -4,6 +4,7 @@ import { Fingerprint } from "lucide-react";
 import { ShieldHalf } from "lucide-react";
 import { PlugZap } from "lucide-react";
 import { GlobeLock } from "lucide-react";
+import { ChevronDown } from 'lucide-react';
 
 import user1 from "../assets/profile-pictures/user1.jpg";
 import user2 from "../assets/profile-pictures/user2.jpg";
@@ -13,7 +14,7 @@ import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
 
 export const navItems = [
-  { label: "Features", href: "#" },
+  { label: "Category", href: "#", icon: <ChevronDown />},
   { label: "Workflow", href: "#" },
   { label: "Pricing", href: "#" },
   { label: "Testimonials", href: "#" },
