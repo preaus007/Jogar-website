@@ -798,3 +798,31 @@ footer ul li a:hover {
 .team__member:hover .team__member__socials {
   right: 0;
 }
+
+@media screen and (max-width: 550px) {
+  .about__achievements__container {
+    grid-template-columns: 1fr;
+  }
+
+  .about__achievements__left {
+    padding: 20px;
+  }
+
+  .about__achievements__right {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .achievements__cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
+  .team__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+}
