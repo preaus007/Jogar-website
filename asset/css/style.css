@@ -841,10 +841,10 @@ footer ul li a:hover {
 
 .contact__aside {
   background-color: var(--color-primary);
-  padding: 3rem;
+  padding: 2rem;
   border-radius: 1rem;
   position: relative;
-  bottom: 10rem;
+  bottom: 8rem;
 }
 
 .aside__image {
