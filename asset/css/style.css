@@ -585,6 +585,10 @@ footer ul li a:hover {
     grid-template-columns: 1fr;
   }
 
+  .header_right-img {
+    display: none;
+  }
+
   .nav_container button {
     display: inline-block;
     background: transparent;
