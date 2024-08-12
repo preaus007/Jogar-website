@@ -34,7 +34,8 @@ body {
   font-family: "Montserrat", sans-serif;
   line-height: 1.7;
   color: var(--color-white);
-  background: var(--color-bg);
+  background-color: var(--color-bg);
+  background-image: url(../images/bg-texture.png);
 }
 
 .container {
